@@ -46,11 +46,11 @@ df["family_size"] =  df["SibSp"]+df["Parch"]+1
 df["fare_category"] =df["Fare"].apply( lambda x:"Low" if x<50 else "High")
 
 
-# What was the survival rate by gender?
-# What was the average fare by passenger class?
-# How many children (age < 18) survived?
-# What was the average age by passenger class?
-# Which embarkation point had the highest survival rate?
+# 1. What was the survival rate by gender?
+# 2. What was the average fare by passenger class?
+# 3. How many children (age < 18) survived?
+# 4. What was the average age by passenger class?
+# 5. Which embarkation point had the highest survival rate?
 
 print("1. Survival rate by gender:")
 print("->",df.groupby("Sex")["Survived"].mean())
