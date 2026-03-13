@@ -70,37 +70,6 @@ df.to_csv("titanic_clean.csv", index=False)
 print("Clean dataset saved!")
 print("Final shape:", df.shape)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## 📌 Expected Final Output
 
 # Final shape: (891, 11)
